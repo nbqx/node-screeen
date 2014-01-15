@@ -1,0 +1,28 @@
+{
+  "name": "screeen",
+  "version": "0.0.1",
+  "description": "utility for osx screenshot img",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/node-screeen.git"
+  },
+  "homepage": "https://github.com/nbqx/node-screeen",
+  "keywords": [
+    "mac",
+    "screencapture"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "temporary": "0.0.8"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
+  }
+}
