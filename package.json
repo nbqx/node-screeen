@@ -1,6 +1,6 @@
 {
   "name": "screeen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "utility for osx screenshot img",
   "main": "index.js",
   "scripts": {

@@ -85,11 +85,7 @@ Screeen.capture = function(){
 
   if(args.length===1){
     var  _opt = args[0];
-    if(valid_type(_opt)){
-      opt = _.extend(Screeen.defaults, args[0]);
-    }else{
-      opt = Screeen.defaults;
-    }
+    opt = _.extend(Screeen.defaults, args[0]);
   }else if(args.length===2){
     opt = _.extend(Screeen.defaults, args[0]);
     cb = args[1];
